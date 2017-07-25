@@ -11,9 +11,11 @@ const testFunc = () => {
     message: `I'm string message, not component!`,
     dva: `I'm string dva`,
     createLoading: `I'm string createLoading`,
-    browserHistory: `I'm string browserHistory`
+    browserHistory: `I'm string browserHistory`,
+    React: `I'm string React`,
+    ReactDom: `I'm string ReactDom`
   }]
-  const res = arr.map(({ message, dva, createLoading, browserHistory }) => ({ message, dva, createLoading, browserHistory }))
+  const res = arr.map(({ message, dva, createLoading, browserHistory, React, ReactDom }) => ({ message, dva, createLoading, browserHistory, React, ReactDom }))
   console.log(res)
 }
 
