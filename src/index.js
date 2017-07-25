@@ -5,6 +5,9 @@ import createLoading from 'dva-loading'
 import { browserHistory } from 'dva/router'
 import { message } from 'antd'
 
+import React from 'react'
+import ReactDom from 'react-dom'
+
 const testFunc = () => {
   const message = `rewrited message`
   const arr = [{
