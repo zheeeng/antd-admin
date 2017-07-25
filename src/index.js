@@ -9,7 +9,7 @@ import React from 'react'
 import ReactDom from 'react-dom'
 
 const testFunc = () => {
-  const message = `rewrited message`
+  const message = `rewritten message`
   const arr = [{
     message: `I'm string message, not component!`,
     dva: `I'm string dva`,
